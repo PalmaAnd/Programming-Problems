@@ -12,9 +12,10 @@
  * @returns Indices of the two numbers such that they add up to target
  */
 var twoSum = (numbers, target) => {
-    for (var i = 0; i < numbers.length - 1; i++) {
-        for (var j = i + 1; j < numbers.length; j++) {
-            if (numbers[i] + numbers[j] == target) {
+    for(var i = 0; i < numbers.length -1; i++){
+        var temp = numbers[i];
+        for(var j = i+1; j < numbers.length; j++){
+            if (target - temp == numbers[j]){
                 return [i, j];
             }
         }
