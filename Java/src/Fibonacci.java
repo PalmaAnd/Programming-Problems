@@ -1,3 +1,14 @@
+/*
+Problem:
+The Fibonacci numbers, commonly denoted F(n) form a sequence,
+called the Fibonacci sequence, such that each number is the sum
+of the two preceding ones, starting from 0 and 1.
+
+Given n, calculate F(n).
+
+Runtime: 0ms Memory: 40.8MB
+ */
+
 class Fibonacci {
     public static void main(String[] args){
         System.out.println("Please enter the desired Fibonacci series: ");
