@@ -1,16 +1,23 @@
 class Fibonacci {
     public static void main(String[] args){
-        System.out.println("Bitte geben Sie die gewünschte Fibonacci Reihe ein");
+        System.out.println("Please enter the desired Fibonacci series: ");
         int input = SavitchIn.readInt();
-        System.out.println("Das Ergebnis lautet: " + fibonacci(input));
+        System.out.println("Result: " + fibonacci(input));
     }
 
     private static int fibonacci(int fibNumber){
-        // If the given number is 2 or less, we can safely return 1, as this is defined by fibonacci
-        if (fibNumber <= 2)
-            return 1;
-        else
-            // If the given number is more then 2, we calculate the wanted value by calling the function recursevly
-            return (fibonacci(fibNumber-1) + fibonacci(fibNumber-2));
+        // If n is one or less, we can return n itself
+        if (fibNumber <= 1)
+            return fibNumber;
+        // Otherwise we create an array with the length of n + 1
+        int[] fib_cache = new int[fibNumber + 1];
+        // We hardcode that the second element of the array is 1 (because the fib of 1 is 1)
+        fib_cache[1] = 1;
+
+        // Now we loop through the array, starting from two until we arrived at the length of n
+        for(int i = 2; i <= fibNumber; i++) {
+            fib_cache[i] = fib_cache[i - 1] + fib_cache[i - 2];
+        }
+        return fib_cache[fibNumber];
     }
 }
