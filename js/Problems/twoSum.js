@@ -18,9 +18,9 @@
  * @param {int} target The wished return value
  * @returns Indices of the two numbers such that they add up to target
  */
-var twoSum = function (numbers, target) {
+let twoSum = function (numbers, target) {
     const map = new Map();
-    for (var i = 0; i < numbers.length; i++) {
+    for (let i = 0; i < numbers.length; i++) {
         // Calculate what value would be needed to get the target by also using the current value
         const result = target - numbers[i];
         // If the result is already set inside the map, we can return the index of the two values as it will result in the target
@@ -41,10 +41,10 @@ var twoSum = function (numbers, target) {
  * @param {int} target The wished return value
  * @returns Indices of the two numbers such that they add up to target
  */
-var twoSumLowMemory = function (nums, target) {
-    for (var i = 0; i < nums.length - 1; i++) {
-        var temp = nums[i];
-        for (var j = i + 1; j < nums.length; j++) {
+let twoSumLowMemory = function (nums, target) {
+    for (let i = 0; i < nums.length - 1; i++) {
+        let temp = nums[i];
+        for (let j = i + 1; j < nums.length; j++) {
             if (target - temp == nums[j]) {
                 return [i, j];
             }
