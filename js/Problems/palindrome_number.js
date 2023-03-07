@@ -9,3 +9,5 @@
 
     return x == (x_reversed + type);
 };
+
+module.exports = {isPalindrome};
