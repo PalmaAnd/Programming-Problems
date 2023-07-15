@@ -9,8 +9,8 @@ public class TopKFrequent {
      * You may return the answer in any order.
      * <p></p>
      * Details:<p></p>
-     * - Runtime: 17ms (Beats 23.85%)<p></p>
-     * - Memory Usage: 47.59mb (Beats 83.93%)
+     * - Runtime:       17ms    (Beats 75.1%)<p></p>
+     * - Memory Usage:  47.59mb (Beats 74.24%)
      *
      * @param nums the given integer array
      * @param k    how many elements should be returned
