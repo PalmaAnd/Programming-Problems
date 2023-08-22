@@ -1,4 +1,4 @@
-const twoSum = require('../Problems/twoSum');
+const twoSum = require('../Problems/twoSum.js');
 
 test("Two Sum: Should return 9", () => {
     expect(twoSum.twoSum([2, 7, 11, 15], 9)).toEqual([0, 1]);
