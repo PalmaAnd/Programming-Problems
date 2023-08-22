@@ -21,6 +21,7 @@ Here is a list of the problems I've solved along with links to the corresponding
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [JavaScript](js/Problems/isAnagram.js) |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Java](Java/src/TopKFrequent.java)|
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [JavaScript](js/Problems/isPalindrome.js) |
+| [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [JavaScript](js/Problems/twoSum2.js) |
 
 ## Java Solutions
 
