@@ -11,7 +11,9 @@ public class Group_Anagrams {
         List<List<String>> solution = new ArrayList<>();
         for (int i = 0; i < strs.length; i++) {
             char[] temp = strs[i].toCharArray();
-
+            for (int j = 0; j < temp.length; j++) {
+                
+            }
         }
         return solution;
     }
