@@ -12,16 +12,13 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
+    - uses: actions/setup-node@v3
       with:
-        node-version: 'latest'
+        node-version: 18
+      name: Set up Node.js
 
     - name: Change directory to js/
       run: cd js
 
-    - name: Install dependencies
-      run: npm install
-
-    - name: Run tests
-      run: npm test
+    - run: npm ci
+    - run: npm test
