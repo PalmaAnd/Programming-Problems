@@ -18,8 +18,9 @@ jobs:
         node-version: 18
       name: Set up Node.js
 
-    - name: Change directory to js/
-      run: cd js
-
     - run: npm ci
+      working-directory: ./js
+      
     - run: npm test
+      working-directory: ./js
+        
