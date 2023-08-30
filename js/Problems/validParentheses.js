@@ -3,19 +3,35 @@
  * @return {boolean}
  */
 var validParentheses = function (s) {
-    var amountParentheses = 0;
-    var amountBrackets = 0;
-    var amountBraces = 0;
-    for (let index = 0; index < s.length; index++) {
-        const element = s.charAt(index);
-        if (element == "(") amountParentheses++;
-        if (element == ")") amountParentheses--;
-        if (element == "[") amountBrackets++;
-        if (element == "]") amountBrackets--;
-        if (element == "{") amountBraces++;
-        if (element == "}") amountBraces--;
+    if (s.length % 2 != 0) return false;
+    var opening = [];
+    for (let i = 0; i < s.length; i++) {
+        const element = s[i];
+        if (element == "(" || element == "[" || element == "{") {
+            opening.push(element);
+        } else {
+            if (element == ")") {
+                if (opening[opening.length - 1] == "(") {
+                    opening.pop();
+                } else {
+                    return false;
+                }
+            } else if (element == "]") {
+                if (opening[opening.length - 1] == "[") {
+                    opening.pop();
+                } else {
+                    return false;
+                }
+            } else if (element == "}") {
+                if (opening[opening.length - 1] == "{") {
+                    opening.pop();
+                } else {
+                    return false;
+                }
+            }
+        }
     }
-    return amountParentheses == 0 && amountBrackets == 0 && amountBraces == 0;
+    return opening.length == 0;
 };
 
 module.exports = validParentheses;
