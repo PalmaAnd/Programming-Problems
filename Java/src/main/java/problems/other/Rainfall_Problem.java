@@ -1,3 +1,5 @@
+package problems.other;
+
 /**
  * Description:
  * - Design a program that consumes a list of numbers (integers) representing daily rainfall amounts as entered by a user

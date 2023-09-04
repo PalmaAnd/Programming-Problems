@@ -1,16 +1,17 @@
+package problems.leetcode.arrays_hashing;
+
 import java.util.HashMap;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class TopKFrequent {
-
     /**
-     * Given an integer array nums and an integer k, return the k most frequent elements.
-     * You may return the answer in any order.
-     * <p></p>
-     * Details:<p></p>
-     * - Runtime:       17ms    (Beats 75.1%)<p></p>
-     * - Memory Usage:  47.59mb (Beats 74.24%)
+    * Given an integer array nums and an integer k, return the k most frequent elements.
+    * You may return the answer in any order.
+    * <p></p>
+    * Details:<p></p>
+    * - Runtime:       17ms    (Beats 75.1%)<p></p>
+    * - Memory Usage:  47.59mb (Beats 74.24%)
      *
      * @param nums the given integer array
      * @param k    how many elements should be returned

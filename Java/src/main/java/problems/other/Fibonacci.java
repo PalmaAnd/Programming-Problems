@@ -1,3 +1,5 @@
+package problems.other;
+
 /*
 Problem:
 The Fibonacci numbers, commonly denoted F(n) form a sequence,
