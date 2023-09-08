@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Solved problem">
-      <change afterPath="$PROJECT_DIR$/docs/Stack/155. Min Stack.md" afterDir="false" />
+    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Found slow ( O(n^2) ) solution for the daily temps problem, started working on faster solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/DailyTemperatures.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
@@ -81,6 +81,7 @@
       <workItem from="1693939388689" duration="540000" />
       <workItem from="1694173053835" duration="7908000" />
       <workItem from="1694192261157" duration="4371000" />
+      <workItem from="1694200670793" duration="6889000" />
     </task>
     <task id="LOCAL-00001" summary="Changed Java project and transformed it to a Maven project">
       <created>1693865334137</created>
@@ -124,7 +125,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694198081360</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added docs for MinStack">
+      <created>1694199471029</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694199471029</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Found slow ( O(n^2) ) solution for the daily temps problem, started working on faster solution">
+      <created>1694204181872</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694204181872</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +150,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="6-238-product-of-array-except-self" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -152,7 +179,10 @@
     <MESSAGE value="Finished work on 0150-ReversePolishTest" />
     <MESSAGE value="Passed first LeetCode test" />
     <MESSAGE value="Rewrote code to make it easier to find issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rewrote code to make it easier to find issues" />
+    <MESSAGE value="Added docs for MinStack" />
+    <MESSAGE value="Started working on DailyTemps and found solution, but the time complexity is to high ( O(n^2) )" />
+    <MESSAGE value="Found slow ( O(n^2) ) solution for the daily temps problem, started working on faster solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Found slow ( O(n^2) ) solution for the daily temps problem, started working on faster solution" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
