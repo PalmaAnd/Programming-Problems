@@ -42,7 +42,7 @@ class MinStack {
         if (this.topEntry == null){
             min = Integer.MAX_VALUE;
         } else if (removedMin == min) {
-            min = this.topEntry.parent.minValue;
+            min = this.topEntry.minValue;
         }
 
     }

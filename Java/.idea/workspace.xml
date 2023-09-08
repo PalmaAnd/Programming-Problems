@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Passed first LeetCode test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Rewrote code to make it easier to find issues">
       <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/MinStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/MinStackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,7 @@
       <workItem from="1693864241839" duration="1249000" />
       <workItem from="1693939388689" duration="540000" />
       <workItem from="1694173053835" duration="7908000" />
-      <workItem from="1694192261157" duration="4347000" />
+      <workItem from="1694192261157" duration="4371000" />
     </task>
     <task id="LOCAL-00001" summary="Changed Java project and transformed it to a Maven project">
       <created>1693865334137</created>
@@ -112,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694190794857</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Rewrote code to make it easier to find issues">
+      <created>1694198081360</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694198081360</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +144,8 @@
     <MESSAGE value="Continued work on MinStack" />
     <MESSAGE value="Finished work on 0150-ReversePolishTest" />
     <MESSAGE value="Passed first LeetCode test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Passed first LeetCode test" />
+    <MESSAGE value="Rewrote code to make it easier to find issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rewrote code to make it easier to find issues" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
