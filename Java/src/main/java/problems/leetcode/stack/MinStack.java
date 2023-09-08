@@ -1,30 +1,54 @@
 package problems.leetcode.stack;
 
-import java.util.Stack;
-
 class MinStack {
     private int min;
-    private Stack stack;
 
-    public MinStack() {
-        min = Integer.MAX_VALUE;
-        stack = new Stack<Integer>();
-    }
+    private Node topEntry;
 
-    public void push(int val) {
-        if (val < min) min = val;
-        stack.push(val);
-    }
-
-    public void pop() {
-        int removedItem = (int) stack.pop();
-        if (removedItem == min){
-
+    static class Node {
+        int val;
+        int minValue;
+        Node parent;
+        Node next;
+        Node (int val, Node parent, int minValue){
+            this.val = val;
+            this.minValue = Math.min(val, minValue);
+            if (parent != null) {
+                this.parent = parent;
+                this.parent.next = this;
+            }
         }
     }
 
+    public MinStack() {
+        this.min = Integer.MAX_VALUE;
+        this.topEntry = null;
+    }
+
+    public void push(int val) {
+        Node newEntry;
+        if (topEntry == null){
+            newEntry = new Node(val, null, val);
+        } else {
+            newEntry = new Node(val, this.topEntry, min);
+        }
+        this.topEntry = newEntry;
+        this.min = newEntry.minValue;
+    }
+
+    public void pop() {
+        int removedMin = this.topEntry.minValue;
+        this.topEntry = this.topEntry.parent;
+        if (this.topEntry == null){
+            min = Integer.MAX_VALUE;
+        } else if (removedMin == min) {
+            min = this.topEntry.minValue;
+        }
+
+    }
+
     public int top() {
-        return (int) stack.get(stack.size() - 1);
+        return topEntry.val;
     }
 
     public int getMin() {
