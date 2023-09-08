@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Started working on MinStack">
+    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Continued work on MinStack">
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/ReversePolish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/ReversePolishTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/MinStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/MinStackTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
       <workItem from="1693863306075" duration="569000" />
       <workItem from="1693864241839" duration="1249000" />
       <workItem from="1693939388689" duration="540000" />
-      <workItem from="1694173053835" duration="1643000" />
+      <workItem from="1694173053835" duration="6946000" />
     </task>
     <task id="LOCAL-00001" summary="Changed Java project and transformed it to a Maven project">
       <created>1693865334137</created>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693939905481</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Continued work on MinStack">
+      <created>1694175536140</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694175536140</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +128,8 @@
     <MESSAGE value="Changed Java project and transformed it to a Maven project" />
     <MESSAGE value="Started working on GroupAnagrams" />
     <MESSAGE value="Started working on MinStack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started working on MinStack" />
+    <MESSAGE value="Continued work on MinStack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Continued work on MinStack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
