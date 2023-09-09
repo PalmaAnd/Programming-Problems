@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Added first working solution for ProductExceptSelf problem, but it is to slow">
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/ProductExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/ProductExceptSelfTest.java" afterDir="false" />
+    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Finally found a working solution for ProductExceptSelf">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/ProductExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/ProductExceptSelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/ProductExceptSelfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/ProductExceptSelfTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PalmaAnd&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="463ae17f-8905-4eab-9de2-d5f710b826bd" />
+        <option name="url" value="https://github.com/PalmaAnd/Programming-Problems.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
   </component>
@@ -42,6 +57,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2Uwv8yB7RP75vOM4zXxa5zAt7v8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -50,20 +68,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "238-product-of-array-except-self",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "C:/Projects/Programming/Programming-Problems/Java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\[02] Projects\[01] Programming\[01] Projects\[01] GitHub Projects\Programming-Problems\Java\src\main\java\problems\other" />
@@ -86,6 +112,8 @@
       <workItem from="1694173053835" duration="7908000" />
       <workItem from="1694192261157" duration="4371000" />
       <workItem from="1694200670793" duration="6889000" />
+      <workItem from="1694268795176" duration="1958000" />
+      <workItem from="1694271992885" duration="1927000" />
     </task>
     <task id="LOCAL-00001" summary="Changed Java project and transformed it to a Maven project">
       <created>1693865334137</created>
@@ -187,7 +215,8 @@
     <MESSAGE value="Started working on DailyTemps and found solution, but the time complexity is to high ( O(n^2) )" />
     <MESSAGE value="Found slow ( O(n^2) ) solution for the daily temps problem, started working on faster solution" />
     <MESSAGE value="Added first working solution for ProductExceptSelf problem, but it is to slow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added first working solution for ProductExceptSelf problem, but it is to slow" />
+    <MESSAGE value="Finally found a working solution for ProductExceptSelf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finally found a working solution for ProductExceptSelf" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
