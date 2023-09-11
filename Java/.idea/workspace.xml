@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Finally found a working solution for ProductExceptSelf">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Continued work on 3sum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/two_pointers/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/two_pointers/ThreeSum.java" afterDir="false" />
     </list>
@@ -45,7 +44,7 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="463ae17f-8905-4eab-9de2-d5f710b826bd" />
+        <option name="accountId" value="05a514a6-7a04-4b36-aaab-6f869d1269f9" />
         <option name="url" value="https://github.com/PalmaAnd/Programming-Problems.git" />
       </UrlAndAccount>
     </option>
@@ -120,7 +119,7 @@
       <workItem from="1694332019121" duration="982000" />
       <workItem from="1694464598752" duration="128000" />
       <workItem from="1694464972446" duration="30000" />
-      <workItem from="1694465012576" duration="1099000" />
+      <workItem from="1694465012576" duration="1828000" />
     </task>
     <task id="LOCAL-00001" summary="Changed Java project and transformed it to a Maven project">
       <created>1693865334137</created>
@@ -178,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694204181872</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Continued work on 3sum">
+      <option name="closed" value="true" />
+      <created>1694466144271</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694466144272</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +245,8 @@
     <MESSAGE value="Found slow ( O(n^2) ) solution for the daily temps problem, started working on faster solution" />
     <MESSAGE value="Added first working solution for ProductExceptSelf problem, but it is to slow" />
     <MESSAGE value="Finally found a working solution for ProductExceptSelf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finally found a working solution for ProductExceptSelf" />
+    <MESSAGE value="Continued work on 3sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Continued work on 3sum" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
