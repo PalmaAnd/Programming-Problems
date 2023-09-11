@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Found a pretty ugly solution, which takes to long">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/two_pointers/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/two_pointers/ThreeSum.java" afterDir="false" />
-    </list>
+    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Finally managed to solve this problem with the help of others" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +116,7 @@
       <workItem from="1694332019121" duration="982000" />
       <workItem from="1694464598752" duration="128000" />
       <workItem from="1694464972446" duration="30000" />
-      <workItem from="1694465012576" duration="5137000" />
+      <workItem from="1694465012576" duration="5593000" />
     </task>
     <task id="LOCAL-00001" summary="Changed Java project and transformed it to a Maven project">
       <created>1693865334137</created>
@@ -201,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694468497729</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Finally managed to solve this problem with the help of others">
+      <option name="closed" value="true" />
+      <created>1694470189762</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694470189762</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +268,8 @@
     <MESSAGE value="Finally found a working solution for ProductExceptSelf" />
     <MESSAGE value="Continued work on 3sum" />
     <MESSAGE value="Found a pretty ugly solution, which takes to long" />
-    <option name="LAST_COMMIT_MESSAGE" value="Found a pretty ugly solution, which takes to long" />
+    <MESSAGE value="Finally managed to solve this problem with the help of others" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finally managed to solve this problem with the help of others" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
