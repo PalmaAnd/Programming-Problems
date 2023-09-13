@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Continued work on testing">
-      <change afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/GroupAnagramsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/ProductExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/ProductExceptSelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/ProductExceptSelfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/ProductExceptSelfTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/TopKFrequentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/TopKFrequentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/DailyTemperaturesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/DailyTemperaturesTest.java" afterDir="false" />
+    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Added the rest of the tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/utils/MinValueNodeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +28,7 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ProductExceptSelfTest">
+  <component name="RunManager" selected="JUnit.MinValueNodeTest">
     <configuration name="DailyTemperaturesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -61,6 +56,21 @@
       <option name="MAIN_CLASS_NAME" value="problems.leetcode.stack.DailyTemperaturesTest" />
       <option name="METHOD_NAME" value="testAllTemperaturesSame" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinValueNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.leetcode.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.leetcode.utils" />
+      <option name="MAIN_CLASS_NAME" value="problems.leetcode.utils.MinValueNodeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MinValueNodeTest" />
         <item itemvalue="JUnit.ProductExceptSelfTest" />
         <item itemvalue="JUnit.TopKFrequentTest" />
         <item itemvalue="JUnit.DailyTemperaturesTest" />
@@ -129,7 +140,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694638753476</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added tests and a possible problem fix for ProductExceptSelf">
+      <option name="closed" value="true" />
+      <created>1694639338461</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694639338461</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added the rest of the tests">
+      <option name="closed" value="true" />
+      <created>1694639353021</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694639353021</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,6 +164,8 @@
     <MESSAGE value="Added maven testing: junit.jupiter&#10;Started working on the testfiles" />
     <MESSAGE value="Made some changes MinStack and extracted the used Node to a new class so it can be used in the future" />
     <MESSAGE value="Continued work on testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Continued work on testing" />
+    <MESSAGE value="Added tests and a possible problem fix for ProductExceptSelf" />
+    <MESSAGE value="Added the rest of the tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the rest of the tests" />
   </component>
 </project>
