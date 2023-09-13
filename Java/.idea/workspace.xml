@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Added maven testing: junit.jupiter&#10;Started working on the testfiles">
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/utils/MinValueNode.java" afterDir="false" />
+    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Continued work on testing">
+      <change afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/GroupAnagramsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/ReversePolish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/ReversePolish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/MinStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/MinStackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/ReversePolishTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/ReversePolishTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/two_pointers/ThreeSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/two_pointers/ThreeSumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/utils/ListNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/utils/ListNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/ProductExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/ProductExceptSelf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/ProductExceptSelfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/ProductExceptSelfTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/TopKFrequentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/TopKFrequentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/DailyTemperaturesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/DailyTemperaturesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +33,77 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.ProductExceptSelfTest">
+    <configuration name="DailyTemperaturesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.leetcode.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.leetcode.stack" />
+      <option name="MAIN_CLASS_NAME" value="problems.leetcode.stack.DailyTemperaturesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DailyTemperaturesTest.testAllTemperaturesSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.leetcode.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.leetcode.stack" />
+      <option name="MAIN_CLASS_NAME" value="problems.leetcode.stack.DailyTemperaturesTest" />
+      <option name="METHOD_NAME" value="testAllTemperaturesSame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductExceptSelfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.leetcode.arrays_hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.leetcode.arrays_hashing" />
+      <option name="MAIN_CLASS_NAME" value="problems.leetcode.arrays_hashing.ProductExceptSelfTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopKFrequentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.leetcode.arrays_hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.leetcode.arrays_hashing" />
+      <option name="MAIN_CLASS_NAME" value="problems.leetcode.arrays_hashing.TopKFrequentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProductExceptSelfTest" />
+        <item itemvalue="JUnit.TopKFrequentTest" />
+        <item itemvalue="JUnit.DailyTemperaturesTest" />
+        <item itemvalue="JUnit.DailyTemperaturesTest.testAllTemperaturesSame" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Added maven testing: junit.jupiter&#10;Started working on the testfiles">
       <option name="closed" value="true" />
@@ -44,12 +113,30 @@
       <option name="project" value="LOCAL" />
       <updated>1694637450226</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Made some changes MinStack and extracted the used Node to a new class so it can be used in the future">
+      <option name="closed" value="true" />
+      <created>1694638744142</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694638744142</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Continued work on testing">
+      <option name="closed" value="true" />
+      <created>1694638753476</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694638753476</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added temporary config files" />
     <MESSAGE value="Added maven testing: junit.jupiter&#10;Started working on the testfiles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added maven testing: junit.jupiter&#10;Started working on the testfiles" />
+    <MESSAGE value="Made some changes MinStack and extracted the used Node to a new class so it can be used in the future" />
+    <MESSAGE value="Continued work on testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Continued work on testing" />
   </component>
 </project>
