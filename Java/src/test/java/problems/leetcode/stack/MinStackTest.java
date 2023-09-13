@@ -1,46 +1,47 @@
 package problems.leetcode.stack;
 
-public class MinStackTest {
-    public static void main(String[] args) {
-        testCase1();
-        testCase2();
-    }
+import org.junit.jupiter.api.Test;
 
-    public static void testCase1(){
-        System.out.println("Start test1");
+import static org.junit.jupiter.api.Assertions.*;
+
+class MinStackTest {
+
+    @Test
+    void testMinStack() {
         MinStack minStack = new MinStack();
+
+        // Test case 1: Push and pop elements
+        minStack.push(5);
         minStack.push(2);
-        minStack.push(0);
-        minStack.push(-3);
-        int param_1 = minStack.getMin();
+        minStack.push(7);
         minStack.pop();
-        int param_2 = minStack.top();
-        int param_3 = minStack.getMin();
-        System.out.println(param_1);
-        System.out.println(param_2);
-        System.out.println(param_3);
-        System.out.println("Ende   test1");
+        assertEquals(2, minStack.top());
+        assertEquals(2, minStack.getMin());
 
-    }
-
-    public static void testCase2(){
-        System.out.println("Start test2");
-        MinStack minStack = new MinStack();
-        minStack.push(2);
-        minStack.push(0);
+        // Test case 2: Push and pop elements, check minimum
+        minStack.push(1);
         minStack.push(3);
-        minStack.push(0);
-        int param_1 = minStack.getMin();
         minStack.pop();
-        int param_2 = minStack.getMin();
+        assertEquals(1, minStack.top());
+        assertEquals(1, minStack.getMin());
+
+        // Test case 3: Push and pop elements, check minimum
         minStack.pop();
-        int param_3 = minStack.getMin();
+        assertEquals(2, minStack.top());
+        assertEquals(2, minStack.getMin());
+
+
+        // Test case 4: Push multiple elements with the same value
+        minStack.push(2);
+        minStack.push(2);
+        assertEquals(2, minStack.top());
+        assertEquals(2, minStack.getMin());
+
+        // Test case 5: Pop all elements
         minStack.pop();
-        int param_4 = minStack.getMin();
-        System.out.println(param_1);
-        System.out.println(param_2);
-        System.out.println(param_3);
-        System.out.println(param_4);
-        System.out.println("End  test2");
+        minStack.pop();
+        minStack.pop();
+        minStack.pop();
+        assertTrue(minStack.isEmpty());
     }
 }

@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Added temporary config files">
-      <change afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/utils/ListNodeTest.java" afterDir="false" />
+    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Added maven testing: junit.jupiter&#10;Started working on the testfiles">
+      <change afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/utils/MinValueNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/utils/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/utils/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/linked_list/ReverseLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/linked_list/ReverseLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/ReversePolish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/ReversePolish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/MinStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/MinStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/ReversePolishTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/stack/ReversePolishTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/two_pointers/ThreeSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/two_pointers/ThreeSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/utils/ListNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/utils/ListNodeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +36,20 @@
   }
 }]]></component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Added maven testing: junit.jupiter&#10;Started working on the testfiles">
+      <option name="closed" value="true" />
+      <created>1694637450226</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694637450226</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added temporary config files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added temporary config files" />
+    <MESSAGE value="Added maven testing: junit.jupiter&#10;Started working on the testfiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added maven testing: junit.jupiter&#10;Started working on the testfiles" />
   </component>
 </project>
