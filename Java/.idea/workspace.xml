@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Finally managed to solve this problem with the help of others">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/linked_list/ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/utils/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/linked_list/ReverseLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Added  generated files and added utils package where ListNode and other needed objects will be stored">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/linked_list/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/linked_list/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/utils/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/utils/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/linked_list/ReverseLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/linked_list/ReverseLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -124,7 +123,7 @@
       <workItem from="1694464598752" duration="128000" />
       <workItem from="1694464972446" duration="30000" />
       <workItem from="1694465012576" duration="5593000" />
-      <workItem from="1694619949076" duration="805000" />
+      <workItem from="1694619949076" duration="1611000" />
     </task>
     <task id="LOCAL-00001" summary="Changed Java project and transformed it to a Maven project">
       <created>1693865334137</created>
@@ -214,7 +213,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694470189762</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Started working on ReverseLinkedList problem">
+      <option name="closed" value="true" />
+      <created>1694620963225</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694620963225</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added  generated files and added utils package where ListNode and other needed objects will be stored">
+      <option name="closed" value="true" />
+      <created>1694620992380</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1694620992380</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +292,9 @@
     <MESSAGE value="Continued work on 3sum" />
     <MESSAGE value="Found a pretty ugly solution, which takes to long" />
     <MESSAGE value="Finally managed to solve this problem with the help of others" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finally managed to solve this problem with the help of others" />
+    <MESSAGE value="Started working on ReverseLinkedList problem" />
+    <MESSAGE value="Added  generated files and added utils package where ListNode and other needed objects will be stored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added  generated files and added utils package where ListNode and other needed objects will be stored" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
