@@ -5,7 +5,7 @@ import problems.leetcode.linked_list.ReverseLinkedList;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class ReverseLinkedListTest {
+class ListNodeTest {
 
     @Test
     void testReverseList() {

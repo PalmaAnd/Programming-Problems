@@ -1,24 +1,11 @@
 package problems.leetcode.stack;
 
-class MinStack {
+import problems.leetcode.utils.MinValueNode;
+
+public class MinStack {
     private int min;
 
-    private Node topEntry;
-
-    static class Node {
-        int val;
-        int minValue;
-        Node parent;
-        Node next;
-        Node (int val, Node parent, int minValue){
-            this.val = val;
-            this.minValue = Math.min(val, minValue);
-            if (parent != null) {
-                this.parent = parent;
-                this.parent.next = this;
-            }
-        }
-    }
+    private MinValueNode topEntry;
 
     public MinStack() {
         this.min = Integer.MAX_VALUE;
@@ -26,11 +13,11 @@ class MinStack {
     }
 
     public void push(int val) {
-        Node newEntry;
+        MinValueNode newEntry;
         if (topEntry == null){
-            newEntry = new Node(val, null, val);
+            newEntry = new MinValueNode(val, null, val);
         } else {
-            newEntry = new Node(val, this.topEntry, min);
+            newEntry = new MinValueNode(val, this.topEntry, min);
         }
         this.topEntry = newEntry;
         this.min = newEntry.minValue;
@@ -53,5 +40,9 @@ class MinStack {
 
     public int getMin() {
         return min;
+    }
+
+    public boolean isEmpty() {
+        return topEntry == null;
     }
 }
