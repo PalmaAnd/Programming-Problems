@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Added  generated files and added utils package where ListNode and other needed objects will be stored">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/linked_list/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/linked_list/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/utils/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/utils/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/linked_list/ReverseLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/linked_list/ReverseLinkedListTest.java" afterDir="false" />
+    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Added the rest of the tests">
+      <change afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/utils/MinValueNodeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,281 +19,153 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$/.." value="main" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;PalmaAnd&quot;
-  }
-}</component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="main" />
-      </list>
-    </option>
-  </component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="05a514a6-7a04-4b36-aaab-6f869d1269f9" />
-        <option name="url" value="https://github.com/PalmaAnd/Programming-Problems.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/Installed Program/Programming/Maven 3.9.4" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
-}</component>
-  <component name="ProjectId" id="2Uwv8yB7RP75vOM4zXxa5zAt7v8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "23-0206-reverse-linked-list",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Projects/Programming/Projects/GitHub Projects/Programming-Problems/Java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+    "git-widget-placeholder": "4-integrate-java-testing",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\[02] Projects\[01] Programming\[01] Projects\[01] GitHub Projects\Programming-Problems\Java\src\main\java\problems\other" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="problems.leetcode.arrays_hashing" />
-    </key>
+  <component name="RunManager" selected="JUnit.MinValueNodeTest">
+    <configuration name="DailyTemperaturesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.leetcode.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.leetcode.stack" />
+      <option name="MAIN_CLASS_NAME" value="problems.leetcode.stack.DailyTemperaturesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DailyTemperaturesTest.testAllTemperaturesSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.leetcode.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.leetcode.stack" />
+      <option name="MAIN_CLASS_NAME" value="problems.leetcode.stack.DailyTemperaturesTest" />
+      <option name="METHOD_NAME" value="testAllTemperaturesSame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinValueNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.leetcode.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.leetcode.utils" />
+      <option name="MAIN_CLASS_NAME" value="problems.leetcode.utils.MinValueNodeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductExceptSelfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.leetcode.arrays_hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.leetcode.arrays_hashing" />
+      <option name="MAIN_CLASS_NAME" value="problems.leetcode.arrays_hashing.ProductExceptSelfTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopKFrequentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.leetcode.arrays_hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.leetcode.arrays_hashing" />
+      <option name="MAIN_CLASS_NAME" value="problems.leetcode.arrays_hashing.TopKFrequentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MinValueNodeTest" />
+        <item itemvalue="JUnit.ProductExceptSelfTest" />
+        <item itemvalue="JUnit.TopKFrequentTest" />
+        <item itemvalue="JUnit.DailyTemperaturesTest" />
+        <item itemvalue="JUnit.DailyTemperaturesTest.testAllTemperaturesSame" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="" />
-      <created>1693863304081</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1693863304081</updated>
-      <workItem from="1693863306075" duration="569000" />
-      <workItem from="1693864241839" duration="1249000" />
-      <workItem from="1693939388689" duration="540000" />
-      <workItem from="1694173053835" duration="7908000" />
-      <workItem from="1694192261157" duration="4371000" />
-      <workItem from="1694200670793" duration="6889000" />
-      <workItem from="1694268795176" duration="1958000" />
-      <workItem from="1694271992885" duration="1927000" />
-      <workItem from="1694332019121" duration="982000" />
-      <workItem from="1694464598752" duration="128000" />
-      <workItem from="1694464972446" duration="30000" />
-      <workItem from="1694465012576" duration="5593000" />
-      <workItem from="1694619949076" duration="1611000" />
-    </task>
-    <task id="LOCAL-00001" summary="Changed Java project and transformed it to a Maven project">
-      <created>1693865334137</created>
+    <task id="LOCAL-00001" summary="Added maven testing: junit.jupiter&#10;Started working on the testfiles">
+      <option name="closed" value="true" />
+      <created>1694637450226</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1693865334137</updated>
+      <updated>1694637450226</updated>
     </task>
-    <task id="LOCAL-00002" summary="Started working on GroupAnagrams">
-      <created>1693865432961</created>
+    <task id="LOCAL-00002" summary="Made some changes MinStack and extracted the used Node to a new class so it can be used in the future">
+      <option name="closed" value="true" />
+      <created>1694638744142</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1693865432961</updated>
+      <updated>1694638744142</updated>
     </task>
-    <task id="LOCAL-00003" summary="Started working on MinStack">
-      <created>1693939905481</created>
+    <task id="LOCAL-00003" summary="Continued work on testing">
+      <option name="closed" value="true" />
+      <created>1694638753476</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1693939905481</updated>
+      <updated>1694638753476</updated>
     </task>
-    <task id="LOCAL-00004" summary="Continued work on MinStack">
-      <created>1694175536140</created>
+    <task id="LOCAL-00004" summary="Added tests and a possible problem fix for ProductExceptSelf">
+      <option name="closed" value="true" />
+      <created>1694639338461</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1694175536140</updated>
+      <updated>1694639338461</updated>
     </task>
-    <task id="LOCAL-00005" summary="Finished work on 0150-ReversePolishTest">
-      <created>1694190794857</created>
+    <task id="LOCAL-00005" summary="Added the rest of the tests">
+      <option name="closed" value="true" />
+      <created>1694639353021</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1694190794857</updated>
+      <updated>1694639353021</updated>
     </task>
-    <task id="LOCAL-00006" summary="Rewrote code to make it easier to find issues">
-      <created>1694198081360</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1694198081360</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added docs for MinStack">
-      <created>1694199471029</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1694199471029</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Found slow ( O(n^2) ) solution for the daily temps problem, started working on faster solution">
-      <created>1694204181872</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1694204181872</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Continued work on 3sum">
-      <option name="closed" value="true" />
-      <created>1694466144271</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1694466144272</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Continued work on 3sum">
-      <option name="closed" value="true" />
-      <created>1694466863902</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1694466863902</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Found a pretty ugly solution, which takes to long">
-      <option name="closed" value="true" />
-      <created>1694468497729</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1694468497729</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Finally managed to solve this problem with the help of others">
-      <option name="closed" value="true" />
-      <created>1694470189762</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1694470189762</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Started working on ReverseLinkedList problem">
-      <option name="closed" value="true" />
-      <created>1694620963225</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1694620963225</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Added  generated files and added utils package where ListNode and other needed objects will be stored">
-      <option name="closed" value="true" />
-      <created>1694620992380</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1694620992380</updated>
-    </task>
-    <option name="localTasksCounter" value="15" />
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="main" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="23-0206-reverse-linked-list" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
-    <MESSAGE value="Changed Java project and transformed it to a Maven project" />
-    <MESSAGE value="Started working on GroupAnagrams" />
-    <MESSAGE value="Started working on MinStack" />
-    <MESSAGE value="Continued work on MinStack" />
-    <MESSAGE value="Finished work on 0150-ReversePolishTest" />
-    <MESSAGE value="Passed first LeetCode test" />
-    <MESSAGE value="Rewrote code to make it easier to find issues" />
-    <MESSAGE value="Added docs for MinStack" />
-    <MESSAGE value="Started working on DailyTemps and found solution, but the time complexity is to high ( O(n^2) )" />
-    <MESSAGE value="Found slow ( O(n^2) ) solution for the daily temps problem, started working on faster solution" />
-    <MESSAGE value="Added first working solution for ProductExceptSelf problem, but it is to slow" />
-    <MESSAGE value="Finally found a working solution for ProductExceptSelf" />
-    <MESSAGE value="Continued work on 3sum" />
-    <MESSAGE value="Found a pretty ugly solution, which takes to long" />
-    <MESSAGE value="Finally managed to solve this problem with the help of others" />
-    <MESSAGE value="Started working on ReverseLinkedList problem" />
-    <MESSAGE value="Added  generated files and added utils package where ListNode and other needed objects will be stored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added  generated files and added utils package where ListNode and other needed objects will be stored" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <MESSAGE value="Added temporary config files" />
+    <MESSAGE value="Added maven testing: junit.jupiter&#10;Started working on the testfiles" />
+    <MESSAGE value="Made some changes MinStack and extracted the used Node to a new class so it can be used in the future" />
+    <MESSAGE value="Continued work on testing" />
+    <MESSAGE value="Added tests and a possible problem fix for ProductExceptSelf" />
+    <MESSAGE value="Added the rest of the tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the rest of the tests" />
   </component>
 </project>

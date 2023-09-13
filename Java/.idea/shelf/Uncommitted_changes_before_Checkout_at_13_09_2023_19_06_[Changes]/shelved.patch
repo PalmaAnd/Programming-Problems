@@ -1,0 +1,138 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a8543014-ab47-414f-9a18-2d3577fbc658\" name=\"Changes\" comment=\"Added  generated files and added utils package where ListNode and other needed objects will be stored\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/problems/leetcode/linked_list/ReverseLinkedList.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/problems/leetcode/linked_list/ReverseLinkedList.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/problems/leetcode/utils/ListNode.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/problems/leetcode/utils/ListNode.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/problems/leetcode/linked_list/ReverseLinkedListTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/problems/leetcode/linked_list/ReverseLinkedListTest.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$/..\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;PalmaAnd&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubProjectSettings\">\r\n    <option name=\"branchProtectionPatterns\">\r\n      <list>\r\n        <option value=\"main\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"05a514a6-7a04-4b36-aaab-6f869d1269f9\" />\r\n        <option name=\"url\" value=\"https://github.com/PalmaAnd/Programming-Problems.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"mavenHome\" value=\"D:/Installed Program/Programming/Maven 3.9.4\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2Uwv8yB7RP75vOM4zXxa5zAt7v8\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"git-widget-placeholder\": \"23-0206-reverse-linked-list\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"jdk.selected.JAVA_MODULE\": \"openjdk-19\",\r\n    \"last_opened_file_path\": \"C:/Projects/Programming/Projects/GitHub Projects/Programming-Problems/Java\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.2\",\r\n    \"settings.editor.selected.configurable\": \"preferences.keymap\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\[02] Projects\\[01] Programming\\[01] Projects\\[01] GitHub Projects\\Programming-Problems\\Java\\src\\main\\java\\problems\\other\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"problems.leetcode.arrays_hashing\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a8543014-ab47-414f-9a18-2d3577fbc658\" name=\"Changes\" comment=\"\" />\r\n      <created>1693863304081</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1693863304081</updated>\r\n      <workItem from=\"1693863306075\" duration=\"569000\" />\r\n      <workItem from=\"1693864241839\" duration=\"1249000\" />\r\n      <workItem from=\"1693939388689\" duration=\"540000\" />\r\n      <workItem from=\"1694173053835\" duration=\"7908000\" />\r\n      <workItem from=\"1694192261157\" duration=\"4371000\" />\r\n      <workItem from=\"1694200670793\" duration=\"6889000\" />\r\n      <workItem from=\"1694268795176\" duration=\"1958000\" />\r\n      <workItem from=\"1694271992885\" duration=\"1927000\" />\r\n      <workItem from=\"1694332019121\" duration=\"982000\" />\r\n      <workItem from=\"1694464598752\" duration=\"128000\" />\r\n      <workItem from=\"1694464972446\" duration=\"30000\" />\r\n      <workItem from=\"1694465012576\" duration=\"5593000\" />\r\n      <workItem from=\"1694619949076\" duration=\"1611000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Changed Java project and transformed it to a Maven project\">\r\n      <created>1693865334137</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1693865334137</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Started working on GroupAnagrams\">\r\n      <created>1693865432961</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1693865432961</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Started working on MinStack\">\r\n      <created>1693939905481</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1693939905481</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Continued work on MinStack\">\r\n      <created>1694175536140</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694175536140</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Finished work on 0150-ReversePolishTest\">\r\n      <created>1694190794857</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694190794857</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Rewrote code to make it easier to find issues\">\r\n      <created>1694198081360</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694198081360</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Added docs for MinStack\">\r\n      <created>1694199471029</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694199471029</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Found slow ( O(n^2) ) solution for the daily temps problem, started working on faster solution\">\r\n      <created>1694204181872</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694204181872</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Continued work on 3sum\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694466144271</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694466144272</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Continued work on 3sum\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694466863902</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694466863902</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Found a pretty ugly solution, which takes to long\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694468497729</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694468497729</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Finally managed to solve this problem with the help of others\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694470189762</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694470189762</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Started working on ReverseLinkedList problem\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694620963225</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694620963225</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Added  generated files and added utils package where ListNode and other needed objects will be stored\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1694620992380</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1694620992380</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"15\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list>\r\n              <RecentGroup>\r\n                <option name=\"FILTER_VALUES\">\r\n                  <option value=\"main\" />\r\n                </option>\r\n              </RecentGroup>\r\n            </list>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"23-0206-reverse-linked-list\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <ignored-roots>\r\n      <path value=\"$PROJECT_DIR$\" />\r\n    </ignored-roots>\r\n    <MESSAGE value=\"Changed Java project and transformed it to a Maven project\" />\r\n    <MESSAGE value=\"Started working on GroupAnagrams\" />\r\n    <MESSAGE value=\"Started working on MinStack\" />\r\n    <MESSAGE value=\"Continued work on MinStack\" />\r\n    <MESSAGE value=\"Finished work on 0150-ReversePolishTest\" />\r\n    <MESSAGE value=\"Passed first LeetCode test\" />\r\n    <MESSAGE value=\"Rewrote code to make it easier to find issues\" />\r\n    <MESSAGE value=\"Added docs for MinStack\" />\r\n    <MESSAGE value=\"Started working on DailyTemps and found solution, but the time complexity is to high ( O(n^2) )\" />\r\n    <MESSAGE value=\"Found slow ( O(n^2) ) solution for the daily temps problem, started working on faster solution\" />\r\n    <MESSAGE value=\"Added first working solution for ProductExceptSelf problem, but it is to slow\" />\r\n    <MESSAGE value=\"Finally found a working solution for ProductExceptSelf\" />\r\n    <MESSAGE value=\"Continued work on 3sum\" />\r\n    <MESSAGE value=\"Found a pretty ugly solution, which takes to long\" />\r\n    <MESSAGE value=\"Finally managed to solve this problem with the help of others\" />\r\n    <MESSAGE value=\"Started working on ReverseLinkedList problem\" />\r\n    <MESSAGE value=\"Added  generated files and added utils package where ListNode and other needed objects will be stored\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Added  generated files and added utils package where ListNode and other needed objects will be stored\" />\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,11 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Added  generated files and added utils package where ListNode and other needed objects will be stored">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    <list default="true" id="a8543014-ab47-414f-9a18-2d3577fbc658" name="Changes" comment="Added comments to ReverseLinkedList">
+       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/linked_list/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/linked_list/ReverseLinkedList.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/utils/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/utils/ListNode.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/linked_list/ReverseLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/linked_list/ReverseLinkedListTest.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -91,7 +88,7 @@
+     "project.structure.last.edited": "Modules",
+     "project.structure.proportion": "0.0",
+     "project.structure.side.proportion": "0.2",
+-    "settings.editor.selected.configurable": "preferences.keymap",
++    "settings.editor.selected.configurable": "tms.main",
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
+@@ -123,7 +120,7 @@
+       <workItem from="1694464598752" duration="128000" />
+       <workItem from="1694464972446" duration="30000" />
+       <workItem from="1694465012576" duration="5593000" />
+-      <workItem from="1694619949076" duration="1611000" />
++      <workItem from="1694619949076" duration="2384000" />
+     </task>
+     <task id="LOCAL-00001" summary="Changed Java project and transformed it to a Maven project">
+       <created>1693865334137</created>
+@@ -229,7 +226,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1694620992380</updated>
+     </task>
+-    <option name="localTasksCounter" value="15" />
++    <task id="LOCAL-00015" summary="Added comments to ReverseLinkedList">
++      <option name="closed" value="true" />
++      <created>1694621673363</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1694621673363</updated>
++    </task>
++    <option name="localTasksCounter" value="16" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -294,7 +299,8 @@
+     <MESSAGE value="Finally managed to solve this problem with the help of others" />
+     <MESSAGE value="Started working on ReverseLinkedList problem" />
+     <MESSAGE value="Added  generated files and added utils package where ListNode and other needed objects will be stored" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Added  generated files and added utils package where ListNode and other needed objects will be stored" />
++    <MESSAGE value="Added comments to ReverseLinkedList" />
++    <option name="LAST_COMMIT_MESSAGE" value="Added comments to ReverseLinkedList" />
+   </component>
+   <component name="XSLT-Support.FileAssociations.UIState">
+     <expand />
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>problems.leetcode</groupId>\r\n    <artifactId>Java</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n\r\n    <properties>\r\n        <maven.compiler.source>19</maven.compiler.source>\r\n        <maven.compiler.target>19</maven.compiler.target>\r\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\r\n    </properties>\r\n\r\n    <dependencies>\r\n        <dependency>\r\n            <groupId>junit</groupId>\r\n            <artifactId>junit</artifactId>\r\n            <version>4.13.2</version>\r\n            <scope>test</scope>\r\n        </dependency>\r\n    </dependencies>\r\n\r\n    <build>\r\n        <plugins>\r\n            <!-- Add Surefire plugin for testing -->\r\n            <plugin>\r\n                <groupId>org.apache.maven.plugins</groupId>\r\n                <artifactId>maven-surefire-plugin</artifactId>\r\n                <version>3.0.0-M5</version> <!-- Adjust the version as needed -->\r\n                <configuration>\r\n                    <includes>\r\n                        <include>**/*Test.java</include>\r\n                        <include>**/*Tests.java</include> <!-- For TestNG compatibility -->\r\n                    </includes>\r\n                </configuration>\r\n            </plugin>\r\n        </plugins>\r\n    </build>\r\n\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	
++++ b/pom.xml	
+@@ -16,9 +16,9 @@
+ 
+     <dependencies>
+         <dependency>
+-            <groupId>junit</groupId>
+-            <artifactId>junit</artifactId>
+-            <version>4.13.2</version>
++            <groupId>org.junit.jupiter</groupId>
++            <artifactId>junit-jupiter</artifactId>
++            <version>RELEASE</version>
+             <scope>test</scope>
+         </dependency>
+     </dependencies>
+Index: src/test/java/problems/leetcode/linked_list/ReverseLinkedListTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package problems.leetcode.linked_list;\r\n\r\nimport problems.leetcode.utils.ListNode;\r\n\r\npublic class ReverseLinkedListTest {\r\n    public static void main(String[] args) {\r\n        ReverseLinkedList revList = new ReverseLinkedList();\r\n        ListNode head = new ListNode(1);\r\n        System.out.println(head.next);\r\n        head.next = new ListNode(2);\r\n        head.next.next = new ListNode(3);\r\n        head.next.next.next = new ListNode(4);\r\n        head.next.next.next.next = new ListNode(5);\r\n        System.out.println(head);\r\n        ListNode revHead = revList.reverseList(head);\r\n        System.out.println(revHead);\r\n    }\r\n\r\n}\r\n
+===================================================================
+diff --git a/src/test/java/problems/leetcode/linked_list/ReverseLinkedListTest.java b/src/test/java/problems/leetcode/linked_list/ReverseLinkedListTest.java
+--- a/src/test/java/problems/leetcode/linked_list/ReverseLinkedListTest.java	
++++ b/src/test/java/problems/leetcode/linked_list/ReverseLinkedListTest.java	
+@@ -1,19 +1,32 @@
+ package problems.leetcode.linked_list;
+ 
++import org.junit.jupiter.api.Test;
++import problems.leetcode.linked_list.ReverseLinkedList;
+ import problems.leetcode.utils.ListNode;
+ 
+-public class ReverseLinkedListTest {
+-    public static void main(String[] args) {
++import static org.junit.jupiter.api.Assertions.assertEquals;
++
++class ReverseLinkedListTest {
++
++    @Test
++    void testReverseList() {
+         ReverseLinkedList revList = new ReverseLinkedList();
++
++        // Create a linked list: 1 -> 2 -> 3 -> 4 -> 5
+         ListNode head = new ListNode(1);
+-        System.out.println(head.next);
+         head.next = new ListNode(2);
+         head.next.next = new ListNode(3);
+         head.next.next.next = new ListNode(4);
+         head.next.next.next.next = new ListNode(5);
+-        System.out.println(head);
++
++        // Reverse the list
+         ListNode revHead = revList.reverseList(head);
+-        System.out.println(revHead);
+-    }
+ 
++        // Assert that the reversed list is as expected: 5 -> 4 -> 3 -> 2 -> 1
++        assertEquals(5, revHead.val);
++        assertEquals(4, revHead.next.val);
++        assertEquals(3, revHead.next.next.val);
++        assertEquals(2, revHead.next.next.next.val);
++        assertEquals(1, revHead.next.next.next.next.val);
++    }
+ }

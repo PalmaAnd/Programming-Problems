@@ -29,10 +29,9 @@ public class ReversePolish {
                     if (var1 != 0)
                         counterStack.push(var2 / var1);
                     else
-                        return 0; // in theory this check is not needed but I added it for safety reasons
+                        return 0; // in theory this check is not needed, but I added it for safety reasons
                 }
             }
-            System.out.println(counterStack.peek());
         }
         return counterStack.pop();
     }

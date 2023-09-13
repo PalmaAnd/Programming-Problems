@@ -18,13 +18,15 @@ public class ListNode {
 
     @Override
     public String toString() {
-       String ret = String.valueOf(this.val);
-        while(this.next != null){
-            System.out.println("toString thigns");
-            System.out.println(this.next);
-            ret +=  " -> " + this.next.val;
-            this.next = this.next.next;
+        StringBuilder builder = new StringBuilder();
+        builder.append(this.val);
+        ListNode current = this.next;
+        while (current != null) {
+            builder.append(" -> ").append(current.val);
+            current = current.next;
         }
-       return ret;
+
+        return builder.toString();
     }
+
 }
