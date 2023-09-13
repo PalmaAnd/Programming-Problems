@@ -4,24 +4,34 @@ This repository contains my solutions to various LeetCode problems. The solution
 
 ## Table of Contents
 
-- [Java Solutions](#java-solutions)
-- [JavaScript Solutions](#javascript-solutions)
-- [Getting Started](#getting-started)
-- [Running Tests](#running-tests)
+- [Programming-Problems](#programming-problems)
+  - [Table of Contents](#table-of-contents)
+  - [Current Solutions](#current-solutions)
+  - [Java Solutions](#java-solutions)
+  - [JavaScript Solutions](#javascript-solutions)
+  - [Getting Started](#getting-started)
+  - [Running Tests](#running-tests)
+  - [License](#license)
 
 ## Current Solutions
 
 Here is a list of the problems I've solved along with links to the corresponding LeetCode problem:
 
-| Problem | Solution |
-| ------- | -------- |
-| [Two Sum](https://leetcode.com/problems/two-sum/) | [JavaScript](js/Problems/twoSum.js) |
-| [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | [JavaScript](js/Problems/isPalindrome.js) |
-| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | [JavaScript](js/Problems/containsDuplicate.js) |
-| [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [JavaScript](js/Problems/isAnagram.js) |
-| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [Java](Java/src/TopKFrequent.java)|
-| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [JavaScript](js/Problems/isPalindrome.js) |
-| [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [JavaScript](js/Problems/twoSum2.js) |
+| Problem                                                                                               | Solution                                                                           |
+| ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [Two Sum](https://leetcode.com/problems/two-sum/)                                                     | [JavaScript](js/Problems/twoSum.js)                                                |
+| [Palindrome Number](https://leetcode.com/problems/palindrome-number/)                                 | [JavaScript](js/Problems/isPalindrome.js)                                          |
+| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                               | [JavaScript](js/Problems/containsDuplicate.js)                                     |
+| [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                         | [JavaScript](js/Problems/isAnagram.js)                                             |
+| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                   | [JavaScript](js/Problems/isPalindrome.js)                                          |
+| [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [JavaScript](js/Problems/twoSum2.js)                                               |
+| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                     | [Java](Java/src/main/java/problems/leetcode/arrays_hashing/TopKFrequent.java)      |
+| [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)           | [Java](Java/src/main/java/problems/leetcode/arrays_hashing/ProductExceptSelf.java) |
+| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                             | [Java](Java/src/main/java/problems/leetcode/linked_list/ReverseLinkedList.java)    |
+| [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)                               | [Java](Java/src/main/java/problems/leetcode/stack/DailyTemperatures.java)          |
+| [Min Stack](https://leetcode.com/problems/min-stack/)                                                 | [Java](Java/src/main/java/problems/leetcode/stack/MinStack.java)                   |
+| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)   | [Java](Java/src/main/java/problems/leetcode/stack/ReversePolish.java)              |
+| [3Sum](https://leetcode.com/problems/3sum/)                                                           | [Java](Java/src/main/java/problems/leetcode/two_pointers/ThreeSum.java)            |
 
 ## Java Solutions
 
