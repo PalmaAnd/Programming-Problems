@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Added the rest of the tests">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Started working on new problem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/GroupAnagrams.java" afterDir="false" />
     </list>
@@ -189,9 +188,17 @@
       <workItem from="1694643894330" duration="454000" />
       <workItem from="1694960448154" duration="446000" />
       <workItem from="1694960971434" duration="1199000" />
-      <workItem from="1694980517213" duration="515000" />
+      <workItem from="1694980517213" duration="1445000" />
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Started working on new problem">
+      <option name="closed" value="true" />
+      <created>1694981188948</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694981188948</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +215,7 @@
     <MESSAGE value="Continued work on testing" />
     <MESSAGE value="Added tests and a possible problem fix for ProductExceptSelf" />
     <MESSAGE value="Added the rest of the tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the rest of the tests" />
+    <MESSAGE value="Started working on new problem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started working on new problem" />
   </component>
 </project>
