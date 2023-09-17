@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Added the rest of the tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/utils/MinValueNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/GroupAnagrams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,15 +21,35 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2VMRASEKPEKm6NqXg5KOK3qqtoK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "4-integrate-java-testing",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;0049-group-anagrams&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.MinValueNodeTest">
     <configuration name="DailyTemperaturesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
@@ -107,14 +129,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MinValueNodeTest" />
-        <item itemvalue="JUnit.ProductExceptSelfTest" />
         <item itemvalue="JUnit.TopKFrequentTest" />
-        <item itemvalue="JUnit.DailyTemperaturesTest" />
+        <item itemvalue="JUnit.ProductExceptSelfTest" />
+        <item itemvalue="JUnit.MinValueNodeTest" />
         <item itemvalue="JUnit.DailyTemperaturesTest.testAllTemperaturesSame" />
+        <item itemvalue="JUnit.DailyTemperaturesTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Added maven testing: junit.jupiter&#10;Started working on the testfiles">
       <option name="closed" value="true" />
@@ -156,8 +179,27 @@
       <option name="project" value="LOCAL" />
       <updated>1694639353021</updated>
     </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Added the rest of the tests" />
+      <created>1694643820401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694643820401</updated>
+      <workItem from="1694643822240" duration="62000" />
+      <workItem from="1694643894330" duration="454000" />
+      <workItem from="1694960448154" duration="446000" />
+      <workItem from="1694960971434" duration="1199000" />
+      <workItem from="1694980517213" duration="515000" />
+    </task>
     <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added temporary config files" />
