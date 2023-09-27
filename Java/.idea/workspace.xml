@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Finally found a working solution">
+    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Added test cases for GroupAnagrams">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/GroupAnagrams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/GroupAnagrams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/GroupAnagramsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/GroupAnagramsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "PalmaAnd"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="05a514a6-7a04-4b36-aaab-6f869d1269f9" />
+        <option name="url" value="https://github.com/PalmaAnd/Programming-Problems.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -49,22 +63,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MinValueNodeTest">
-    <configuration name="DailyTemperaturesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.leetcode.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="problems.leetcode.stack" />
-      <option name="MAIN_CLASS_NAME" value="problems.leetcode.stack.DailyTemperaturesTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GroupAnagramsTest.testGroupAnagrams">
     <configuration name="DailyTemperaturesTest.testAllTemperaturesSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -76,6 +75,22 @@
       <option name="PACKAGE_NAME" value="problems.leetcode.stack" />
       <option name="MAIN_CLASS_NAME" value="problems.leetcode.stack.DailyTemperaturesTest" />
       <option name="METHOD_NAME" value="testAllTemperaturesSame" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupAnagramsTest.testGroupAnagrams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.leetcode.arrays_hashing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.leetcode.arrays_hashing" />
+      <option name="MAIN_CLASS_NAME" value="problems.leetcode.arrays_hashing.GroupAnagramsTest" />
+      <option name="METHOD_NAME" value="testGroupAnagrams" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GroupAnagramsTest.testGroupAnagrams" />
         <item itemvalue="JUnit.TopKFrequentTest" />
         <item itemvalue="JUnit.ProductExceptSelfTest" />
         <item itemvalue="JUnit.MinValueNodeTest" />
         <item itemvalue="JUnit.DailyTemperaturesTest.testAllTemperaturesSame" />
-        <item itemvalue="JUnit.DailyTemperaturesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +204,7 @@
       <workItem from="1694960448154" duration="446000" />
       <workItem from="1694960971434" duration="1199000" />
       <workItem from="1694980517213" duration="1458000" />
-      <workItem from="1695844519761" duration="1426000" />
+      <workItem from="1695844519761" duration="2747000" />
     </task>
     <task id="LOCAL-00006" summary="Started working on new problem">
       <option name="closed" value="true" />
@@ -235,6 +250,7 @@
     <MESSAGE value="Started working on new problem" />
     <MESSAGE value="Continued work" />
     <MESSAGE value="Finally found a working solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finally found a working solution" />
+    <MESSAGE value="Added test cases for GroupAnagrams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test cases for GroupAnagrams" />
   </component>
 </project>
