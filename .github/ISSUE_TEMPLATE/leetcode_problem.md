@@ -9,6 +9,6 @@ about: New LeetCode problem that will be worked on
 
 **Description:**
 
-A clear and concise description of any problems or issues you've encountered that this feature would address.
+The description of the problem given by LeetCode.
 
 ---
