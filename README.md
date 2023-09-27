@@ -36,7 +36,8 @@ Here is a list of the problems I've solved along with links to the corresponding
 
 ## Java Solutions
 
-The `Java/src/` directory contains my Java implementations for LeetCode problems. Each problem is implemented in its own Java file.
+The `Java/src/` directory contains my Java implementations for LeetCode problems. Each problem is implemented in its own Java file and test file.
+Java is build ontop of a Maven project for easier testing and in general structure.
 
 ## JavaScript Solutions
 
