@@ -28,6 +28,7 @@ Here is a list of the problems I've solved along with links to the corresponding
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                       | [Java](Java/src/main/java/problems/leetcode/arrays_hashing/GroupAnagrams.java)     |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)           | [Java](Java/src/main/java/problems/leetcode/arrays_hashing/ProductExceptSelf.java) |
 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                     | [Java](Java/src/main/java/problems/leetcode/arrays_hashing/TopKFrequent.java)      |
+| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)                       | [Java](Java/src/main/java/problems/leetcode/linked_list/MergeTwoSortedLists.java)  |
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                             | [Java](Java/src/main/java/problems/leetcode/linked_list/ReverseLinkedList.java)    |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)                               | [Java](Java/src/main/java/problems/leetcode/stack/DailyTemperatures.java)          |
 | [Min Stack](https://leetcode.com/problems/min-stack/)                                                 | [Java](Java/src/main/java/problems/leetcode/stack/MinStack.java)                   |
