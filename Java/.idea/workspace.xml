@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Added test cases for GroupAnagrams">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/GroupAnagramsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/GroupAnagramsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/linked_list/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/linked_list/MergeTwoSortedLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +22,26 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "PalmaAnd"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PalmaAnd&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -54,7 +67,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;0049-group-anagrams&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;0021-merge-two-sorted-lists&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -63,23 +76,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.GroupAnagramsTest.testGroupAnagrams">
-    <configuration name="DailyTemperaturesTest.testAllTemperaturesSame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problems.leetcode.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="problems.leetcode.stack" />
-      <option name="MAIN_CLASS_NAME" value="problems.leetcode.stack.DailyTemperaturesTest" />
-      <option name="METHOD_NAME" value="testAllTemperaturesSame" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MergeTwoSortedListsTest">
     <configuration name="GroupAnagramsTest.testGroupAnagrams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -92,6 +89,21 @@
       <option name="MAIN_CLASS_NAME" value="problems.leetcode.arrays_hashing.GroupAnagramsTest" />
       <option name="METHOD_NAME" value="testGroupAnagrams" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeTwoSortedListsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.leetcode.linked_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problems.leetcode.linked_list" />
+      <option name="MAIN_CLASS_NAME" value="problems.leetcode.linked_list.MergeTwoSortedListsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MergeTwoSortedListsTest" />
         <item itemvalue="JUnit.GroupAnagramsTest.testGroupAnagrams" />
         <item itemvalue="JUnit.TopKFrequentTest" />
         <item itemvalue="JUnit.ProductExceptSelfTest" />
         <item itemvalue="JUnit.MinValueNodeTest" />
-        <item itemvalue="JUnit.DailyTemperaturesTest.testAllTemperaturesSame" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +217,7 @@
       <workItem from="1694960971434" duration="1199000" />
       <workItem from="1694980517213" duration="1458000" />
       <workItem from="1695844519761" duration="2747000" />
+      <workItem from="1696944350282" duration="331000" />
     </task>
     <task id="LOCAL-00006" summary="Started working on new problem">
       <option name="closed" value="true" />
