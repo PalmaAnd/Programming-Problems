@@ -2,9 +2,14 @@
 
 This repository contains my solutions to various LeetCode problems. The solutions are implemented in both Java and JavaScript. The Java solutions are located in the `Java/src/` directory, while the JavaScript solutions are divided into problem implementations in `js/Problems/` and corresponding Jest test cases in `js/Tests/`.
 
+## Links to my profiles
+- [Project Euler](https://projecteuler.net/progress=PalmaAnd)
+- [LeetCode](https://leetcode.com/PalmaAnd/)
+
 ## Table of Contents
 
 - [Programming-Problems](#programming-problems)
+  - [Links to my profiles](#links-to-my-profiles)
   - [Table of Contents](#table-of-contents)
   - [Current Solutions](#current-solutions)
   - [Java Solutions](#java-solutions)

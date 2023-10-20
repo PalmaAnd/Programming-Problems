@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Added test cases for GroupAnagrams">
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/project_euler/MultiplesOf3And5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Started working Project Euler problems">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +216,7 @@
       <workItem from="1695844519761" duration="2747000" />
       <workItem from="1696944350282" duration="331000" />
       <workItem from="1697025431026" duration="105000" />
-      <workItem from="1697835838485" duration="289000" />
+      <workItem from="1697835838485" duration="701000" />
     </task>
     <task id="LOCAL-00006" summary="Started working on new problem">
       <option name="closed" value="true" />
@@ -244,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695845612892</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Started working Project Euler problems">
+      <option name="closed" value="true" />
+      <created>1697836207446</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697836207446</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +271,7 @@
     <MESSAGE value="Continued work" />
     <MESSAGE value="Finally found a working solution" />
     <MESSAGE value="Added test cases for GroupAnagrams" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test cases for GroupAnagrams" />
+    <MESSAGE value="Started working Project Euler problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started working Project Euler problems" />
   </component>
 </project>
