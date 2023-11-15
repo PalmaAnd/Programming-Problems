@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Started working Project Euler problems">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Finished work on MergeSortedArrays and added testcases" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,21 +58,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Bachelor Informatik/WS23-24/a2-nad-sew23-s1092183_s1092997",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;32-0088-merge-sorted-array&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Bachelor Informatik/WS23-24/a1-nad-sew23-s1092183_s1092997&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }]]></component>
   <component name="RunManager" selected="Application.MultiplesOf3And5">
     <configuration name="MultiplesOf3And5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problems.project_euler.MultiplesOf3And5" />
@@ -217,8 +214,10 @@
       <workItem from="1696944350282" duration="331000" />
       <workItem from="1697025431026" duration="105000" />
       <workItem from="1697835838485" duration="701000" />
-      <workItem from="1697836602726" duration="105000" />
-      <workItem from="1698062869829" duration="31000" />
+      <workItem from="1698668412307" duration="632000" />
+      <workItem from="1698760511855" duration="933000" />
+      <workItem from="1699258510340" duration="42000" />
+      <workItem from="1700041616919" duration="3280000" />
     </task>
     <task id="LOCAL-00006" summary="Started working on new problem">
       <option name="closed" value="true" />
@@ -252,7 +251,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697836207446</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Replaced deprecated usage of RELEASE inside pom.xml&#10;Removed unused code from testcases">
+      <option name="closed" value="true" />
+      <created>1700044790977</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700044790977</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Finished work on MergeSortedArrays and added testcases">
+      <option name="closed" value="true" />
+      <created>1700044807219</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700044807219</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +289,9 @@
     <MESSAGE value="Finally found a working solution" />
     <MESSAGE value="Added test cases for GroupAnagrams" />
     <MESSAGE value="Started working Project Euler problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started working Project Euler problems" />
+    <MESSAGE value="IntelliJ files" />
+    <MESSAGE value="Replaced deprecated usage of RELEASE inside pom.xml&#10;Removed unused code from testcases" />
+    <MESSAGE value="Finished work on MergeSortedArrays and added testcases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished work on MergeSortedArrays and added testcases" />
   </component>
 </project>
