@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="IntelliJ files">
-      <change afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/MergeSortedArraysTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/MergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/MergeSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/ReversePolish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/ReversePolish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/GroupAnagramsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/GroupAnagramsTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="Finished work on MergeSortedArrays and added testcases" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -225,7 +218,7 @@
       <workItem from="1698668412307" duration="632000" />
       <workItem from="1698760511855" duration="933000" />
       <workItem from="1699258510340" duration="42000" />
-      <workItem from="1700041616919" duration="3053000" />
+      <workItem from="1700041616919" duration="3280000" />
     </task>
     <task id="LOCAL-00006" summary="Started working on new problem">
       <option name="closed" value="true" />
@@ -259,7 +252,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697836207446</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Replaced deprecated usage of RELEASE inside pom.xml&#10;Removed unused code from testcases">
+      <option name="closed" value="true" />
+      <created>1700044790977</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700044790977</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Finished work on MergeSortedArrays and added testcases">
+      <option name="closed" value="true" />
+      <created>1700044807219</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700044807219</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +291,8 @@
     <MESSAGE value="Added test cases for GroupAnagrams" />
     <MESSAGE value="Started working Project Euler problems" />
     <MESSAGE value="IntelliJ files" />
-    <option name="LAST_COMMIT_MESSAGE" value="IntelliJ files" />
+    <MESSAGE value="Replaced deprecated usage of RELEASE inside pom.xml&#10;Removed unused code from testcases" />
+    <MESSAGE value="Finished work on MergeSortedArrays and added testcases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished work on MergeSortedArrays and added testcases" />
   </component>
 </project>
