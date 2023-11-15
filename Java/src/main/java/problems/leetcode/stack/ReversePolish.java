@@ -41,7 +41,6 @@ public class ReversePolish {
             Integer.parseInt(str);
             return true;
         } catch (Exception e){
-            System.out.println("Error occured: " + e.toString());
             return false;
         }
     }

@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a43abfe7-9ae5-4d4f-a480-bed8955c154a" name="Changes" comment="IntelliJ files">
+      <change afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/MergeSortedArraysTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/MergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/arrays_hashing/MergeSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/ReversePolish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/leetcode/stack/ReversePolish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/GroupAnagramsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problems/leetcode/arrays_hashing/GroupAnagramsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,6 +225,7 @@
       <workItem from="1698668412307" duration="632000" />
       <workItem from="1698760511855" duration="933000" />
       <workItem from="1699258510340" duration="42000" />
+      <workItem from="1700041616919" duration="3053000" />
     </task>
     <task id="LOCAL-00006" summary="Started working on new problem">
       <option name="closed" value="true" />
