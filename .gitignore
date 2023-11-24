@@ -158,8 +158,8 @@ target/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
-/.idea
-/Java/.idea
+/.idea/
+/Java/.idea/
 Programming-Problems.iml
 
 ### VS Code ###
