@@ -1,7 +1,7 @@
 ---
-name: LeetCode Easy Problem
-about: New LeetCode problem that will be worked on
-assignees:"PalmaAnd"
+name: "LeetCode Easy Problem"
+about: "New LeetCode problem that will be worked on"
+assignees: "PalmaAnd"
 labels: "Leetcode,easy"
 ---
 
