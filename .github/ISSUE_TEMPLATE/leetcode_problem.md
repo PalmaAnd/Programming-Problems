@@ -1,6 +1,8 @@
 ---
-name: LeetCode Problem
+name: LeetCode Easy Problem
 about: New LeetCode problem that will be worked on
+assignees:"PalmaAnd"
+labels: "Leetcode,easy"
 ---
 
 ## Problem name
@@ -8,7 +10,5 @@ about: New LeetCode problem that will be worked on
 **Link to the problem:** 
 
 **Description:**
-
-The description of the problem given by LeetCode.
 
 ---
