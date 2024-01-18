@@ -1,6 +1,6 @@
 ---
 name: "LeetCode Easy Problem"
-about: "New LeetCode problem that will be worked on"
+about: "Easy LeetCode problem"
 assignees: "PalmaAnd"
 labels: "Leetcode,easy"
 ---
