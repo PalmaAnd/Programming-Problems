@@ -40,6 +40,7 @@ Here is a list of the problems I've solved along with links to the corresponding
 | [Min Stack](https://leetcode.com/problems/min-stack/)                                                 | [Java](Java/src/main/java/problems/leetcode/stack/MinStack.java)                   |
 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)   | [Java](Java/src/main/java/problems/leetcode/stack/ReversePolish.java)              |
 | [3Sum](https://leetcode.com/problems/3sum/)                                                           | [Java](Java/src/main/java/problems/leetcode/two_pointers/ThreeSum.java)            |
+| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)                          | [Java](Java/src/main/java/problems/leetcode/others/LongestCommonPrefix.java)       |
 
 ## Java Solutions
 
