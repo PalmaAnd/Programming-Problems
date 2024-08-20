@@ -41,8 +41,9 @@ Here is a list of the problems I've solved along with links to the corresponding
 | [Min Stack](https://leetcode.com/problems/min-stack/)                                                 | [Java](Java/src/main/java/problems/leetcode/stack/MinStack.java)                   |
 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)   | [Java](Java/src/main/java/problems/leetcode/stack/ReversePolish.java)              |
 | [3Sum](https://leetcode.com/problems/3sum/)                                                           | [Java](Java/src/main/java/problems/leetcode/two_pointers/ThreeSum.java)            |
-| [Remove Element](https://leetcode.com/problems/kth-distinct-string-in-an-array)                       | [Java](Java/src/main/java/problems/leetcode/two_pointers/RemoveElement.java)         |
+| [Remove Element](https://leetcode.com/problems/kth-distinct-string-in-an-array)                       | [Java](Java/src/main/java/problems/leetcode/two_pointers/RemoveElement.java)       |
 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)                          | [Java](Java/src/main/java/problems/leetcode/others/LongestCommonPrefix.java)       |
+| [Search Insert Position](https://leetcode.com/problems/search-insert-position/)                       | [Java](Java/src/main/java/problems/leetcode/others/SearchInsertPosition.java)      |
 | [Roman to Integer](https://leetcode.com/problems/roman-to-integer)                                    | [Java](Java/src/main/java/problems/leetcode/hash_table/RomanToInteger.java)        |
 | [Roman to Integer](https://leetcode.com/problems/remove-element/)                                     | [Java](Java/src/main/java/problems/leetcode/hash_table/KthDistinctStringInArray.java)|
 
