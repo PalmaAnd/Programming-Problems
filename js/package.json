@@ -1,14 +1,26 @@
 {
-  "name": "programming-problems",
+  "name": "js-problems",
   "version": "1.0.0",
   "description": "",
-  "main": "twoSum.js",
+  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "test"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PalmaAnd/Programming-Problems.git"
+  },
+  "keywords": [
+    "leetcode",
+    "projecteuler"
+  ],
+  "author": "Andre Palma",
   "license": "ISC",
-  "devDependencies": {
+  "bugs": {
+    "url": "https://github.com/PalmaAnd/Programming-Problems/issues"
+  },
+  "homepage": "https://github.com/PalmaAnd/Programming-Problems#readme",
+  "dependencies": {
     "jest": "^29.7.0"
   }
 }
